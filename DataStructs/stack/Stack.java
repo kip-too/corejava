@@ -6,7 +6,7 @@ import java.util.List;
  public class Stack<T> {
     private List<T> a= new ArrayList<T>();
 
-    private void push(T x){
+    void push(T x){
        a.add(x);
     }
 
